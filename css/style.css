@@ -12,9 +12,14 @@ html{
 
 /* COMMON */
 
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .container{
     max-width: 1280px;
     margin: auto;
+    margin-top: 10px;
 }
 
 /* HEADER */
@@ -23,9 +28,8 @@ header{
     position: fixed;
     z-index: 5;
     top: 0;
-    right: 0;
+    right: -150px;
     width: 100%;
-    background-color: brown;
 }
 
 .container .search-bar ul li{
@@ -44,10 +48,12 @@ header{
     width: 25px;
     border-radius: 50%;
     display: inline-block;
+    font-size: small;
     text-align: center;
     line-height: 25px;
     font-weight: bold;
 }
+
 
 /* MAIN */  
 
@@ -73,8 +79,29 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 500px;
 }
 
 section img{
     width: 500px;
+}
+
+.slogan-yellow, .slogan-green{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.slogan-yellow{
+    color: yellow;
+
+}
+
+.slogan-green{
+    color: green;
+
+}
+.slogan h1 span{
+    display: block;
+    text-align: center;
 }
