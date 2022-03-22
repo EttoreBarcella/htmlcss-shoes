@@ -49,4 +49,21 @@ header{
     font-weight: bold;
 }
 
-/* MAIN */
+/* MAIN */  
+
+section{
+    height: 100vh;
+    position: relative;
+}
+
+#vans{
+    background-color: #ff0000;
+}
+
+#tommy{
+    background-color: #008000;
+}
+
+#allstars{
+    background-color: #ffff00;
+}
